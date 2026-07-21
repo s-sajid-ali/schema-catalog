@@ -1577,6 +1577,14 @@ sources:
       # repo tarball.
       crdDir: config/crds/resources
 
+  - name: hashi-corp-vault
+    alias: HashiCorp Vault
+    category: "Provisioning"
+    url: https://github.com/hashicorp/vault-secrets-operator
+    extract: crd
+    input:
+      crdDir: chart/crds
+
   - name: image-scanner-operator
     alias: Image Scanner Operator
     category: "Provisioning"
