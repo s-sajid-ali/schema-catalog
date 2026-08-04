@@ -753,6 +753,18 @@ sources:
     input:
       releaseAsset: crd.yaml
 
+  - name: shipwright-operator
+    alias: Shipwright Operator
+    category: "Orchestration & Management"    
+    cncf: sandbox
+    url: https://github.com/shipwright-io/build
+    extract: crd
+    input:
+      # operator does not have a helm chart yet:
+      #  - github.com/shipwright-io/operator/issues/276
+      # fetch CRD definitions from the build repo directly
+      crdDir: deploy/crds
+
   - name: traefik
     alias: Traefik
     category: "Orchestration & Management"
