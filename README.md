@@ -1,7 +1,7 @@
 #  Kubernetes Ecosystem Schema Catalog
 
 <!-- stats:start -->
-![Projects](https://img.shields.io/badge/Projects-116-2088FF?style=flat-square) ![Schemas](https://img.shields.io/badge/Schemas-8%2C959-3FB950?style=flat-square) ![Catalog size](https://img.shields.io/badge/Catalog%20size-640%20MB-8957E5?style=flat-square)
+![Projects](https://img.shields.io/badge/Projects-117-2088FF?style=flat-square) ![Schemas](https://img.shields.io/badge/Schemas-8%2C967-3FB950?style=flat-square) ![Catalog size](https://img.shields.io/badge/Catalog%20size-643%20MB-8957E5?style=flat-square)
 <!-- stats:end -->
 
 A hosted catalog of JSON Schemas and LLM-optimized indexes for Kubernetes and the CNCF Ecosystem,
@@ -232,6 +232,7 @@ gh attestation verify <ID>.json -R controlplaneio-fluxcd/schema-catalog
 | [NFD NodeResourceTopology](https://schemas.fluxoperator.dev/p/node-feature-discovery) | `node-feature-discovery-nrt` | v0.19.0 | 2 | 2026-07-11 |
 | [Node Feature Discovery](https://schemas.fluxoperator.dev/p/node-feature-discovery) | `node-feature-discovery` | v0.19.0 | 3 | 2026-07-11 |
 | [Rancher System Upgrade Controller](https://schemas.fluxoperator.dev/p/rancher-system-upgrade-controller) | `rancher-system-upgrade-controller` | v0.20.1 | 1 | 2026-07-23 |
+| [Shipwright Operator](https://schemas.fluxoperator.dev/p/shipwright-operator) | `shipwright-operator` | v0.20.7 | 8 | 2026-08-04 |
 | [Traefik](https://schemas.fluxoperator.dev/p/traefik) | `traefik` | v3.7.10 | 10 | 2026-08-01 |
 | [Vertical Pod Autoscaler](https://schemas.fluxoperator.dev/p/vertical-pod-autoscaler) | `vertical-pod-autoscaler` | 1.7.1 | 4 | 2026-07-27 |
 | [Volcano](https://schemas.fluxoperator.dev/p/volcano) | `volcano` | v1.15.1 | 9 | 2026-07-30 |

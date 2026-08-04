@@ -1,0 +1,58 @@
+{
+  "name": "shipwright-operator",
+  "repo": "shipwright-io/build",
+  "version": "v0.20.7",
+  "commit": "e28e22120c8319caef7fa18162e3a01495c32d7c",
+  "builtAt": "2026-08-04T17:27:09.799Z",
+  "fluxSchemaVersion": "0.10.3",
+  "inputDigest": "sha256:5c22f1a146384668f2f43b63bbb77b98aa1b1088fc984cdff5758de6b0962e22",
+  "filesDigest": "sha256:240c6edf2f793e2cb8ae1ca896663a91707050b8cce70331f346477b4b4c783d",
+  "kinds": {
+    "shipwright.io/Build": {
+      "singular": "build",
+      "plural": "builds"
+    },
+    "shipwright.io/BuildRun": {
+      "singular": "buildrun",
+      "plural": "buildruns",
+      "shortNames": [
+        "br",
+        "brs"
+      ]
+    },
+    "shipwright.io/BuildStrategy": {
+      "singular": "buildstrategy",
+      "plural": "buildstrategies",
+      "shortNames": [
+        "bs",
+        "bss"
+      ]
+    },
+    "shipwright.io/ClusterBuildStrategy": {
+      "singular": "clusterbuildstrategy",
+      "plural": "clusterbuildstrategies",
+      "shortNames": [
+        "cbs",
+        "cbss"
+      ]
+    }
+  },
+  "files": [
+    "catalog/shipwright.io/build_v1alpha1.fields.txt",
+    "catalog/shipwright.io/build_v1alpha1.json",
+    "catalog/shipwright.io/build_v1beta1.fields.txt",
+    "catalog/shipwright.io/build_v1beta1.json",
+    "catalog/shipwright.io/buildrun_v1alpha1.fields.txt",
+    "catalog/shipwright.io/buildrun_v1alpha1.json",
+    "catalog/shipwright.io/buildrun_v1beta1.fields.txt",
+    "catalog/shipwright.io/buildrun_v1beta1.json",
+    "catalog/shipwright.io/buildstrategy_v1alpha1.fields.txt",
+    "catalog/shipwright.io/buildstrategy_v1alpha1.json",
+    "catalog/shipwright.io/buildstrategy_v1beta1.fields.txt",
+    "catalog/shipwright.io/buildstrategy_v1beta1.json",
+    "catalog/shipwright.io/clusterbuildstrategy_v1alpha1.fields.txt",
+    "catalog/shipwright.io/clusterbuildstrategy_v1alpha1.json",
+    "catalog/shipwright.io/clusterbuildstrategy_v1beta1.fields.txt",
+    "catalog/shipwright.io/clusterbuildstrategy_v1beta1.json"
+  ]
+}
